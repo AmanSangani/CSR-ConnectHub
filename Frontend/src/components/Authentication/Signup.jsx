@@ -21,7 +21,7 @@ export default function Signup(){
 
   //handle Signup API Integration here
   const createAccount=()=>{
-
+    console.log("Recieved Data : ", signupState);
   }
 
     return(
@@ -45,10 +45,7 @@ export default function Signup(){
                 )
             }
           <FormAction handleSubmit={handleSubmit} text="Signup" />
-        </div>
-
-         
-
+        </div> 
       </form>
     )
 }

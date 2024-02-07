@@ -23,6 +23,7 @@ export default function Login(){
     //Handle Login API Integration here
     const authenticateUser = () =>{
         console.log( "Authentication is done");
+        console.log("Received data:", loginState);
     }
 
     return(
